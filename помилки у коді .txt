@@ -1,0 +1,21 @@
+1. у рядку    <input type="text" id="fullName" name="fullName" autocomplete="name" placeholder="Олена Ковальчук" minlength="2" requred>
+   у слові requred пропущена буква "і"
+
+2. у фрагменті коду 
+
+   <fieldset class="group">
+          <legend>Формат навчання <span class="required-mark" aria-hidden="true">*</span></legend>
+          <div class="options">
+            <div class="option">
+              <input class="sr-only" type="radio" id="online" name="format" value="online" required>
+              <label for="online">Онлайн</label>
+            </div>
+            <div class="option">
+              <input class="sr-only" type="radio" id="online" name="format" value="offline" required>
+              <label for="online">Офлайн</label>
+            </div>
+          </div>
+
+ id для форм навчань  однакові.  потрібно було  замінити один на offline та  <label for="offline">Офлайн</label>
+ 
+3. після форми вибору форматів начання не вистачало </fieldset>
